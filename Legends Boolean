@@ -1,0 +1,91 @@
+# Legend Icons
+# Names will act as place holders
+sign = 'Sign In'
+bonus = 'Bonus Deer hunt'
+youth = 'Youth Hunt'
+quota = 'Quota Hunt'
+archOnly = ' Archery Only Area'
+specialtyHunt = 'Specialty Hunting'
+huntLearn = 'Hunt & Learn'
+qualityBuck = 'Quality Buck'
+mobility = 'Mobility-Impaired Hunt'
+birdDog = 'Bird Dog Training'
+furDog = 'Furbearer Dog Training'
+rabbitDog = 'Rabbit Dog Training'
+archRange = 'Archery Range'
+firearmsRange = 'Firearms Shooting Range'
+
+# Could also just set a search input with these criteria and print the instances that present
+# The argument intake needs to be addressed. If we have a search bar it needs to be able to supply all the instance combinations through accessing the function.
+
+def search(meta):
+	for m in meta:
+		if sign in search:
+			return True 
+		else:
+			return False
+	for m in meta:
+		if bonus in search:
+			return True
+		else:
+			return False
+    for m in meta:
+		if youth in search:
+			return True
+		else:
+			return False
+    for m in meta:
+		if quota in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if archOnly in search:
+			return True 
+		else:
+			return False
+	for m in meta:
+		if specialtyHunt in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if huntLearn in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if qualityBuck in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if mobility in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if birdDog in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if furDog in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if rabbitDog in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if archRange in search:
+			return True
+		else:
+			return False
+	for m in meta:
+		if firearmsRange in search:
+			return True
+		else:
+			return False
